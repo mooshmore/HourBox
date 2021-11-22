@@ -1,7 +1,7 @@
 # HourBox
 A custom C#/WinForms control created to make working with time values easier and more efficient.
 
-![HourBox demo](https://lh6.googleusercontent.com/QhH_zTQ-s9GcrBgI-CT_LqIp9sHDSYQqPntNiaBdscFeyU5C9ZqeJfM_hBPiRc4HEHsybdSsTntJhWg6O43X=w2560-h955)
+![HourBox demo](https://i.imgur.com/vHr1ppE.gif)
 
 ## Accessing the value
 
