@@ -252,7 +252,6 @@ namespace HourBoxControl
 
         #endregion
 
-
         #region Keys event handling
 
         private string textBeforeChange = "";
@@ -698,7 +697,7 @@ namespace HourBoxControl
             {
                 // Before uncommenting this back up the files where the control is used - other.
                 // this.BackColor = this.BackColor;
-                //
+
                 // Technically simply doing this solves the problem and hides / shows the mask even when the field is read-only,
                 // but this somehow messes up the read-only back colour property itself - when changing the read-only property
                 // (both through the code and the designer) the back colour of the field doesn't change. Technically this would be
