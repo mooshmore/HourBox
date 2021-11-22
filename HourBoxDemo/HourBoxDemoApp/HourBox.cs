@@ -84,19 +84,19 @@ namespace HourBoxControl
         /// <summary>
         /// Checks if the given text is empty / only has whitespaces.
         /// </summary>
-        private bool IsEmpty_space(string text) => text.Replace(" ", "") == "";
+        private static bool IsEmpty_space(string text) => text.Replace(" ", "") == "";
         /// <summary>
         /// Returns 0 if the text is empty / only has whitespaces; otherwise returns the parsed value.
         /// </summary>
-        private int ParseInt_Zero(string text) => IsEmpty_space(text) ? 0 : int.Parse(text);
+        private static int ParseInt_Zero(string text) => IsEmpty_space(text) ? 0 : int.Parse(text);
         /// <summary>
         /// Returns a Substring(0, 2) of the given text.
         /// </summary>
-        private string TextFront(string text) => text.Substring(0, 2);
+        private static string TextFront(string text) => text.Substring(0, 2);
         /// <summary>
         /// Returns a Substring(3, 2) of the given text.
         /// </summary>
-        private string TextBack(string text) => text.Substring(3, 2);
+        private static string TextBack(string text) => text.Substring(3, 2);
 
         /// <summary>
         /// Formats a time so that it is always in a "HH:mm" format (no matter what) by adding spaces.
@@ -134,7 +134,7 @@ namespace HourBoxControl
         /// If the given text is empty then the value is set to 00.
         /// </summary>
         /// <param name="returnEmpty">If this is set to true and the text is empty a "  " is returned.</param>
-        private string FixMinutes(string text, bool returnEmpty = false)
+        private static string FixMinutes(string text, bool returnEmpty = false)
         {
             if (IsEmpty_space(text) && returnEmpty) return "  ";
             int minutes = ParseInt_Zero(text);
