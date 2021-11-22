@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label4.Text" xml:space="preserve">
-    <value>You should be always accessing the value by the .Value or TimeSpan property - that  way you will always get a consinstent, validated and same character length result. For more information read the readme file.</value>
-  </data>
 </root>

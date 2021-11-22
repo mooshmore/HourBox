@@ -29,11 +29,9 @@ namespace HourBoxDemoApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DemonstrationForm));
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,7 +50,7 @@ namespace HourBoxDemoApp
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(35, 320);
+            this.label7.Location = new System.Drawing.Point(35, 245);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(303, 17);
             this.label7.TabIndex = 19;
@@ -62,7 +60,7 @@ namespace HourBoxDemoApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(35, 270);
+            this.label6.Location = new System.Drawing.Point(35, 195);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(370, 17);
             this.label6.TabIndex = 18;
@@ -72,20 +70,11 @@ namespace HourBoxDemoApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(14, 199);
+            this.label5.Location = new System.Drawing.Point(14, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(311, 21);
             this.label5.TabIndex = 17;
             this.label5.Text = "Additional settings (in misc properties):";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(17, 109);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(396, 76);
-            this.label4.TabIndex = 16;
-            this.label4.Text = resources.GetString("label4.Text");
             // 
             // linkLabel1
             // 
@@ -125,7 +114,7 @@ namespace HourBoxDemoApp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(35, 220);
+            this.label1.Location = new System.Drawing.Point(35, 145);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(337, 17);
             this.label1.TabIndex = 12;
@@ -169,7 +158,7 @@ namespace HourBoxDemoApp
             // 
             // hourBox4
             // 
-            this.hourBox4.Location = new System.Drawing.Point(54, 342);
+            this.hourBox4.Location = new System.Drawing.Point(54, 267);
             this.hourBox4.Mask = "00:00";
             this.hourBox4.Name = "hourBox4";
             this.hourBox4.PromptChar = ' ';
@@ -182,7 +171,7 @@ namespace HourBoxDemoApp
             // 
             // hourBox3
             // 
-            this.hourBox3.Location = new System.Drawing.Point(54, 292);
+            this.hourBox3.Location = new System.Drawing.Point(54, 217);
             this.hourBox3.Mask = "00:00";
             this.hourBox3.Name = "hourBox3";
             this.hourBox3.PromptChar = ' ';
@@ -196,7 +185,7 @@ namespace HourBoxDemoApp
             // hourBox2
             // 
             this.hourBox2.HourLeadingZero = true;
-            this.hourBox2.Location = new System.Drawing.Point(54, 242);
+            this.hourBox2.Location = new System.Drawing.Point(54, 167);
             this.hourBox2.Mask = "00:00";
             this.hourBox2.Name = "hourBox2";
             this.hourBox2.PromptChar = ' ';
@@ -225,7 +214,7 @@ namespace HourBoxDemoApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 434);
+            this.ClientSize = new System.Drawing.Size(429, 331);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -237,7 +226,6 @@ namespace HourBoxDemoApp
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -257,7 +245,6 @@ namespace HourBoxDemoApp
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

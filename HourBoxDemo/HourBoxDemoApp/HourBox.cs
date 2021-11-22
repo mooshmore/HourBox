@@ -252,7 +252,6 @@ namespace HourBoxControl
 
         #endregion
 
-
         #region Keys event handling
 
         private string textBeforeChange = "";
