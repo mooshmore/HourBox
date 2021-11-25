@@ -669,6 +669,8 @@ namespace HourBoxControl
                 else
                 {
                     string time = ((TimeSpan)value).ToString(@"hh\:mm");
+                    // Parsing by using a ToString format method leaves a hour leading zero,
+                    // remove it
                     if (time[0] == '0')
                         time = time.Substring(1);
 
