@@ -667,7 +667,13 @@ namespace HourBoxControl
                 if (value == null)
                     this.Value = "";
                 else
-                    this.Value = ((TimeSpan)value).ToString(@"hh\:mm");
+                {
+                    string time = ((TimeSpan)value).ToString(@"hh\:mm");
+                    if (time[0] == '0')
+                        time = time.Substring(1);
+
+                    this.Value = time;
+                }
             }
         }
 
