@@ -46,14 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\HourBox.cs">
+      <Link>HourBox.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="DemonstrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DemonstrationForm.Designer.cs">
       <DependentUpon>DemonstrationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HourBox.cs">
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
