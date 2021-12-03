@@ -567,6 +567,7 @@ namespace HourBoxControl
 
                 // Remove the previous character and put in the second one in the second position if:
                 if (ParseInt_Zero(textFront) >= 3 || // The components value is bigger/equal to 3 
+                    ParseInt_Zero(textFront) == 0 || // The components value is equal to 0
                     IsEmpty_space(textFront) || // The component is empty
                     (secondFrontLetter == "2" && insertValue > 3)) // The components value is bigger than 2 and the inserted value was bigger than 3 (the hour component can't be bigger than 23)
                 {
