@@ -24,7 +24,7 @@ Additionally, the control supports both copying and pasting.
 Besides switching with left and right arrow keys you can **increase/decrease** the value by **up/down arrow keys**.
 
 ## Additional settings
-- `HourLeadingZero` - if set to true, transforms the value given by getting the `.Value.` by adding zero to the hour component. Example (when set to true): `7:14` => `07:14`. **Set to `false` by default**.
+- `HourLeadingZero` - if set to true, transforms the value given by the `.Value.` property by adding a zero to the hour component. Example (when set to true): `7:14` => `07:14`. **Set to `false` by default**.
 - `ShowMaskOnlyOnFocus` - if set to true, it automatically "hides" the mask when the control is empty by changing the text colour to the same as the controls background colour. **Set to `false` by default**.
 - `ToolTipOnFocus` - displays the text in a tooltip next to the control when it is focused and hides it when the focus is lost. The tooltip won't be displayed if the text isn't set. 
 
