@@ -558,6 +558,13 @@ namespace HourBoxControl
 
             int selectionStart = 0;
 
+            // Selected everything
+            if (caretPosition == 0 && this.SelectionLength == 5)
+            {
+                textFront = "  ";
+                textBack = "  ";
+            }
+
             // Hour component
             if (caretPosition < 3)
             {
